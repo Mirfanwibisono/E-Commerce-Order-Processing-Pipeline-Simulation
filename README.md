@@ -9,7 +9,7 @@ This repository contains a Python program to simulate a data pipeline in an e-co
 
 ## Usage
 1. Clone this repository to your local machine.
-2. Run the main program `Python-programming.py` to see the demonstration of functionality.
+2. Run the main program `Python programming Task.py` to see the demonstration of functionality.
 3. Customize the code as per your project needs.
 
 ## Requirements
