@@ -1,5 +1,6 @@
 # Membuat class Order
 class Order:
+    
     # Membuat constructor untuk menginisialisasi  atribut
     def __init__(self, order_id, customer_name, order_date, total_amount):
         self.order_id = order_id # Atribut order_id
@@ -11,7 +12,6 @@ class Order:
     def calculate_tax(self, tax_rate):
         return self.total_amount * tax_rate # Mengembalikan hasil dari total harga pesanan dikali tarif pajak
     
-
     # Mencetak detail pesanan dari atribut 
     def display_order(self):
         print("Order ID: ", self.order_id) # Mencetak order_id
